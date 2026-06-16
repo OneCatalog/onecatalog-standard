@@ -1,0 +1,285 @@
+{
+  "data": {
+    "id": 1,
+    "public_id": "OC.IND.1",
+    "slug": "60x120-concreto-lunar-terra-light-matt",
+    "menutitle": "60x120 CONCRETO LUNAR TERRA LIGHT MATT",
+    "measurement_unit": {
+      "id": 1,
+      "slug": "m2",
+      "name": "m2"
+    },
+    "brand": {
+      "id": 1,
+      "menutitle": "A-Ceramica",
+      "slug": "a-ceramica",
+      "description_text": null,
+      "foundation_year": null,
+      "website": null,
+      "country_id": null,
+      "country": null,
+      "images_urls": {
+        "min": "https://api.onecatalog.net/wiki/v1/media_files/bWlufGltYWdlcy8yMDI1LTEwLTIzL3doaXRlLWEtY2VyYW1pY2EtbG9nby5wbmc.0sSIVJkZqJGe4Wmc9M29mEozcbPJtjvhAVpgXgxoYFI",
+        "middle": "https://api.onecatalog.net/wiki/v1/media_files/bWlkZGxlfGltYWdlcy8yMDI1LTEwLTIzL3doaXRlLWEtY2VyYW1pY2EtbG9nby5wbmc.o-ePc_nxnVkZF9sAcgjjCJwO8GAi-U0U3pQBG6NOgAw",
+        "max": "https://api.onecatalog.net/wiki/v1/media_files/bWF4fGltYWdlcy8yMDI1LTEwLTIzL3doaXRlLWEtY2VyYW1pY2EtbG9nby5wbmc.R6UGHQQttJdMLwjby-O9yDiVdUvx-vzX8AXLh9RhnOo"
+      }
+    },
+    "country": {
+      "id": 105,
+      "slug": "india",
+      "menutitle": "India",
+      "country_code": "IND"
+    },
+    "article": "",
+    "description_text": null,
+    "product_shape": {
+      "id": 1,
+      "menutitle": "Tile",
+      "slug": "plitka"
+    },
+    "collections": [
+      {
+        "id": 423,
+        "menutitle": "CONCRETO LUNAR",
+        "slug": "concreto-lunar",
+        "link_3d": null,
+        "link_official_site": null,
+        "images_urls": {
+          "min": "https://api.onecatalog.net/wiki/v1/media_files/bWlufGltYWdlcy8yMDI1LTEyLTI2L2NvbmNyZXRvLWx1bmFyLWNhcmJvbi1saWdodC5qcGVn.2kdEqxEsn0Ji2U-ccy0aSEOzf02MVwwXyAnTjr3hO44",
+          "middle": "https://api.onecatalog.net/wiki/v1/media_files/bWlkZGxlfGltYWdlcy8yMDI1LTEyLTI2L2NvbmNyZXRvLWx1bmFyLWNhcmJvbi1saWdodC5qcGVn.CGvtFlZn5rT3SjQpiJOHhHcrFlfF7BLk8VUzrr9yu74",
+          "max": "https://api.onecatalog.net/wiki/v1/media_files/bWF4fGltYWdlcy8yMDI1LTEyLTI2L2NvbmNyZXRvLWx1bmFyLWNhcmJvbi1saWdodC5qcGVn.jdZ0aPph0kfj8t65OQ8ocWAioYW4-NGJB8JSV10FFbY"
+        }
+      }
+    ],
+    "categories": [
+      {
+        "id": 3,
+        "menutitle": "Porcelain tile",
+        "slug": "keramogranit"
+      }
+    ],
+    "options": [
+      {
+        "specification_id": 1,
+        "specification_label": "Color",
+        "specification_type": "text",
+        "slug": "tsvet",
+        "specification_option_id": 1,
+        "specification_option_name": "Light gray",
+        "bool_option": null,
+        "numeric_option": null
+      },
+      {
+        "specification_id": 1,
+        "specification_label": "Color",
+        "specification_type": "text",
+        "slug": "tsvet",
+        "specification_option_id": 2,
+        "specification_option_name": "Gray",
+        "bool_option": null,
+        "numeric_option": null
+      },
+      {
+        "specification_id": 2,
+        "specification_label": "Room",
+        "specification_type": "text",
+        "slug": "pomeschenie",
+        "specification_option_id": 3,
+        "specification_option_name": "For bathroom",
+        "bool_option": null,
+        "numeric_option": null
+      },
+      {
+        "specification_id": 2,
+        "specification_label": "Room",
+        "specification_type": "text",
+        "slug": "pomeschenie",
+        "specification_option_id": 4,
+        "specification_option_name": "For living room",
+        "bool_option": null,
+        "numeric_option": null
+      },
+      {
+        "specification_id": 2,
+        "specification_label": "Room",
+        "specification_type": "text",
+        "slug": "pomeschenie",
+        "specification_option_id": 5,
+        "specification_option_name": "For hallway",
+        "bool_option": null,
+        "numeric_option": null
+      },
+      {
+        "specification_id": 2,
+        "specification_label": "Room",
+        "specification_type": "text",
+        "slug": "pomeschenie",
+        "specification_option_id": 6,
+        "specification_option_name": "For kitchen",
+        "bool_option": null,
+        "numeric_option": null
+      },
+      {
+        "specification_id": 2,
+        "specification_label": "Room",
+        "specification_type": "text",
+        "slug": "pomeschenie",
+        "specification_option_id": 7,
+        "specification_option_name": "For public spaces",
+        "bool_option": null,
+        "numeric_option": null
+      },
+      {
+        "specification_id": 2,
+        "specification_label": "Room",
+        "specification_type": "text",
+        "slug": "pomeschenie",
+        "specification_option_id": 8,
+        "specification_option_name": "For outdoor",
+        "bool_option": null,
+        "numeric_option": null
+      },
+      {
+        "specification_id": 3,
+        "specification_label": "Shape",
+        "specification_type": "text",
+        "slug": "forma",
+        "specification_option_id": 9,
+        "specification_option_name": "Rectangular",
+        "bool_option": null,
+        "numeric_option": null
+      },
+      {
+        "specification_id": 4,
+        "specification_label": "Material",
+        "specification_type": "text",
+        "slug": "material",
+        "specification_option_id": 10,
+        "specification_option_name": "Porcelain tile",
+        "bool_option": null,
+        "numeric_option": null
+      },
+      {
+        "specification_id": 5,
+        "specification_label": "Purpose",
+        "specification_type": "text",
+        "slug": "naznachenie",
+        "specification_option_id": 11,
+        "specification_option_name": "Universal",
+        "bool_option": null,
+        "numeric_option": null
+      },
+      {
+        "specification_id": 6,
+        "specification_label": "Surface",
+        "specification_type": "text",
+        "slug": "poverhnost",
+        "specification_option_id": 12,
+        "specification_option_name": "Matte",
+        "bool_option": null,
+        "numeric_option": null
+      },
+      {
+        "specification_id": 7,
+        "specification_label": "Rectified",
+        "specification_type": "text",
+        "slug": "rektifikat",
+        "specification_option_id": 13,
+        "specification_option_name": "Yes",
+        "bool_option": null,
+        "numeric_option": null
+      },
+      {
+        "specification_id": 8,
+        "specification_label": "Pattern",
+        "specification_type": "text",
+        "slug": "risunok",
+        "specification_option_id": 14,
+        "specification_option_name": "Concrete look",
+        "bool_option": null,
+        "numeric_option": null
+      },
+      {
+        "specification_id": 9,
+        "specification_label": "Exclusive",
+        "specification_type": "boolean",
+        "slug": "ekskljuziv",
+        "specification_option_id": null,
+        "specification_option_name": null,
+        "bool_option": false,
+        "numeric_option": null
+      },
+      {
+        "specification_id": 10,
+        "specification_label": "Frost resistance",
+        "specification_type": "boolean",
+        "slug": "morozoustojchivost",
+        "specification_option_id": null,
+        "specification_option_name": null,
+        "bool_option": true,
+        "numeric_option": null
+      },
+      {
+        "specification_id": 11,
+        "specification_label": "Thickness",
+        "specification_type": "text",
+        "slug": "tolschina",
+        "specification_option_id": 15,
+        "specification_option_name": "8.5 mm",
+        "bool_option": null,
+        "numeric_option": null
+      },
+      {
+        "specification_id": 12,
+        "specification_label": "Format",
+        "specification_type": "text",
+        "slug": "format",
+        "specification_option_id": 16,
+        "specification_option_name": "60x120",
+        "bool_option": null,
+        "numeric_option": null
+      }
+    ],
+    "images_urls": {
+      "min": "https://api.onecatalog.net/wiki/v1/media_files/bWlufGltYWdlcy8yMDI1LTEyLTI2L3RpcGhvb24tdGVycmEtbGlnaHRfZjEuanBn.HqFbiqotuAGr3q4gz50K2zzYi31OgPQ6_2UvSLvWTZo",
+      "middle": "https://api.onecatalog.net/wiki/v1/media_files/bWlkZGxlfGltYWdlcy8yMDI1LTEyLTI2L3RpcGhvb24tdGVycmEtbGlnaHRfZjEuanBn.I-Dwbq7CsykKU5OfNjWXqLoPp8MRJAz1VnC5LDhm96Y",
+      "max": "https://api.onecatalog.net/wiki/v1/media_files/bWF4fGltYWdlcy8yMDI1LTEyLTI2L3RpcGhvb24tdGVycmEtbGlnaHRfZjEuanBn._yPviXsM3lRsFvgU0GfmHy8JfCWCxFpQSvqr8NWLbYE"
+    },
+    "files": [
+      {
+        "name": "tiphoon-terra-light_f2",
+        "category": "images",
+        "file_type": {
+          "slug": null,
+          "name": "Product image"
+        },
+        "urls": {
+          "min": "https://api.onecatalog.net/wiki/v1/media_files/bWlufGltYWdlcy8yMDI1LTEyLTI2L3RpcGhvb24tdGVycmEtbGlnaHRfZjIuanBn.I02cUcUkubQKtZrTACf8lGT01DDFf_1gkMhtAUImAn0"
+        }
+      },
+      {
+        "name": "tiphoon-terra-light_f3",
+        "category": "images",
+        "file_type": {
+          "slug": null,
+          "name": "Product image"
+        },
+        "urls": {
+          "min": "https://api.onecatalog.net/wiki/v1/media_files/bWlufGltYWdlcy8yMDI1LTEyLTI2L3RpcGhvb24tdGVycmEtbGlnaHRfZjMuanBn.qQFYfno_hZlM6CftSW-S9hF4ZpnQnPXwJr0KV-rOHfU"
+        }
+      },
+      {
+        "name": "tiphoon-terra-light_f4",
+        "category": "images",
+        "file_type": {
+          "slug": null,
+          "name": "Product image"
+        },
+        "urls": {
+          "min": "https://api.onecatalog.net/wiki/v1/media_files/bWlufGltYWdlcy8yMDI1LTEyLTI2L3RpcGhvb24tdGVycmEtbGlnaHRfZjQuanBn.i4DttaJ3kr-nckp1xbGxbTbgcJRQ1eowgzERuUarbEU"
+        }
+      }
+    ]
+  },
+  "success": true
+}

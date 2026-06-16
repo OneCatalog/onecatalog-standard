@@ -1,0 +1,50 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "menutitle": "Tile",
+      "slug": "plitka",
+      "images_urls": null,
+      "parent_category": null
+    },
+    {
+      "id": 2,
+      "menutitle": "Ceramic tile",
+      "slug": "keramicheskaya-plitka",
+      "images_urls": null,
+      "parent_category": {
+        "id": 1,
+        "slug": "plitka",
+        "menutitle": "Tile"
+      }
+    },
+    {
+      "id": 3,
+      "menutitle": "Porcelain tile",
+      "slug": "keramogranit",
+      "images_urls": null,
+      "parent_category": {
+        "id": 1,
+        "slug": "plitka",
+        "menutitle": "Tile"
+      }
+    },
+    {
+      "id": 5,
+      "menutitle": "Wall panels",
+      "slug": "stenovye-paneli",
+      "images_urls": null,
+      "parent_category": null
+    }
+  ],
+  "success": true,
+  "meta": {
+    "total": 4,
+    "counts": 4,
+    "i18n": {
+      "requested_lang": "en",
+      "resolved_lang": "en",
+      "fallback_used": false
+    }
+  }
+}
