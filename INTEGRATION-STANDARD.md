@@ -509,15 +509,18 @@ payload → апдейт базовых полей (название, стату
   data.products.unknown = [ offer, … ]                       // без wiki
   data.warehouses       = { warehouse_id: {name, city, address, …} }
   data.regions          = { region_id: {slug, menutitle} }
+  data.suppliers        = { supplier_id: {id, name} }        // справочник поставщиков
   meta: { counts, total }
   ```
 - **offer:**
   ```
   name, code (код поставщика), public_id, status (bool),
-  supplier { id, name },
+  supplier_id,                                            // id поставщика (имя — в data.suppliers)
   products_stocks [ { warehouse_id, quantity } ],          // остатки по складам (часто дробные!)
   product_prices  [ { region_id, base_price, promo_price, purchasing_price } ]  // цены по регионам
   ```
+  Справочники `regions`/`warehouses`/`suppliers` — верхнеуровневые; в оффере — только id
+  (`supplier_id`, `region_id`, `warehouse_id`). `promo_price`/`purchasing_price` могут быть `null`.
   ⚠️ `base_price` — **розничная** цена (как есть на витрину; наценку не добавлять).
   `promo_price` = 0 → акции нет. `purchasing_price` (закупочная) — не на витрину.
   ⚠️ Поле `wiki` оффера содержит URL **с api-key Wiki в query** — не использовать,
@@ -606,7 +609,7 @@ payload → апдейт базовых полей (название, стату
   payload: иначе изменения в неосновных регионах/складах не вызовут запись и
   сайтовые поля устареют;
 - события **до/после записи**, в которые передаются **сырые офферы** + справочники
-  `regions`/`warehouses` (чтобы разложить по регионам/складам).
+  `regions`/`warehouses`/`suppliers` (чтобы разложить по регионам/складам/поставщикам).
 
 ### 13.8 Чек-лист «синхронизация цен/остатков на новой платформе»
 
